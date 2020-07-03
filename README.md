@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # A covid 19 world tracker
 
 This is a simple covid 19 overall statistics tracker for different countries of the world<br/>
-
+See it in action <a href='https://reactcovid19worldtracker.herokuapp.com'>here </a> <br/>
 Made with react.js <br/>
 ## APIs Used
 <a href='https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest'>Covid 19 API</a><br/>
