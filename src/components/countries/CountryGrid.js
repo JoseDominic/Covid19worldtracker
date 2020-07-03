@@ -1,12 +1,12 @@
 import React from 'react'
-import CharacterCard from './CharacterCard';
+import CountryCard from './CountryCard';
 import Spinner from '../ui/Spinner';
 
-const CharacterGrid = ({items,isLoading}) => {
+const CountryGrid = ({items,isLoading}) => {
     return isLoading? (<Spinner/>) :(
             <section className='cards'>{
                 items.map((item) => {
-                return <CharacterCard key={item.CountryCode} item={item}/>
+                return <CountryCard key={item.CountryCode} item={item}/>
                 })
             }
             </section>
@@ -14,4 +14,4 @@ const CharacterGrid = ({items,isLoading}) => {
     
 }
 
-export default CharacterGrid;
+export default CountryGrid;

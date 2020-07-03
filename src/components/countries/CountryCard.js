@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CharacterCard = ({item}) => {
+const CountryCard = ({item}) => {
     return (
         <div className='card'>
       <div className='card-inner'>
@@ -36,4 +36,4 @@ const CharacterCard = ({item}) => {
     )
 }
 
-export default CharacterCard
+export default CountryCard

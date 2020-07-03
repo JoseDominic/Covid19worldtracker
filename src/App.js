@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 import Header from './components/ui/header';
 import SearchBar from './components/ui/SearchBar';
-import CharacterGrid from './components/characters/characterGrid';
+import CountryGrid from './components/countries/CountryGrid';
 import {useState,useEffect} from 'react';
 
 const App = () => {
@@ -45,7 +45,7 @@ const App = () => {
         setQuery(q);
        
         }}/>
-      <CharacterGrid items={items} isLoading={isLoading}/>
+      <CountryGrid items={items} isLoading={isLoading}/>
     </div>
   );
 }
