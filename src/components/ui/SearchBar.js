@@ -11,7 +11,7 @@ const SearchBar = ({getQuery}) => {
     
     return (
         <section className='search'>
-            <form>
+            <form action='#'>
                 <input
                 type='text'
                 className='form-control'
