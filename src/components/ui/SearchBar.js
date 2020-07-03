@@ -11,7 +11,7 @@ const SearchBar = ({getQuery}) => {
     
     return (
         <section className='search'>
-            <form onSubmit={(e)=>{e.preventDefault()}}>
+            <form onSubmit={(e)=>{e.preventDefault();return false;}}>
                 <input
                 type='text'
                 className='form-control'
